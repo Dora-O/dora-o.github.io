@@ -17,6 +17,6 @@ Screenshots for what the porfolio is suppose to look like in all three screen si
 
 Projects section will be updated once a project is available.
 
-https://dora-o.github.io/Portfolio/
+https://dora-o.github.io/
 
 Screenshot of deployed site :<img src =https://user-images.githubusercontent.com/70343136/101712807-f7471d80-3a5b-11eb-8080-da3947005f63.png>
