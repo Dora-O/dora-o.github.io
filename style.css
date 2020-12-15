@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(204, 173, 115);
+}
+
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    justify-content: flex-start;
+}
+
+header{
+    font-size: 30px;
+    background-color: rgb(39, 119, 139); 
+    color:rgb(204, 173, 115);
+    padding: 20px;
+}
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+    background-color: rgb(39, 119, 139)
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding-top: 8px;
+    padding-right: 8px;
+    background-color: rgb(39, 119, 139)
+}
+
+nav a {
+    color: skyblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-variant-caps: small-caps;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(39, 119, 139)
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#main-screen{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(https://www.webmechanix.com/wp-content/uploads/2017/07/womenintech-banner.png);
+    background-size: cover;
+    background-position: center;
+}
+article {
+    display: block;
+    background-color: rgb(39, 119, 139);
+    
+}
+.container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(204, 173, 115);
+}
+
+.article {
+    flex: 1;
+    margin: 5%;
+}
+    
+.dora {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    margin: 5%;
+}
+
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    margin: 5%;
+}
+
+.contact-info{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    margin: 5%;
+}
+
+h2{
+    color: whitesmoke;
+    text-decoration: underline;
+    font-variant: small-caps;
+    background-color: rgb(39, 119, 139)
+}
+
+li, p{
+    color: whitesmoke;
+    background-color: rgb(39, 119, 139)
+}
+.img1{
+    height: 400px;
+    width: 500px;
+    float: right;
+    background-color: rgb(39, 119, 139)
+}
+.img2{
+    height: 400px;
+    width: 500px;
+    float: left;
+    background-color: rgb(39, 119, 139)
+}
+
+.img3{
+    height: 400px;
+    width: 325px;
+    float: right;
+    background-color: rgb(39, 119, 139)
+}
+
+a{
+    background-color: rgb(39, 119, 139)
+}
+ 
+@media screen and (max-width:992px){
+    .img3{
+        height: 400px;
+        width: 325px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .dora{
+        font-size: 11pt;
+        height: auto;
+    }
+    .projects{
+        height: auto;
+    }
+    .img1{
+        height: 275px;
+        width: 375px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .img2{
+        height: 275px;
+        width: 375px;
+        float: left;
+        background-color: rgb(39, 119, 139)
+    }
+}
+@media screen and (max-width:768px){
+
+    .dora{
+        font-size: 9pt;
+        margin-bottom: 20px;
+        padding: 50px;
+        height: auto;
+       }
+    .projects, .contact-info{
+        margin-bottom: 20px;
+        padding: 50px;
+        height: auto;
+    }
+    .img3{
+        height: 300px;
+        width: 225px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .img1{
+        height: 200px;
+        width: 300px;
+        float: right;
+        background-color: rgb(39, 119, 139)
+    }
+    .img2{
+        height: 200px;
+        width: 300px;
+        float: left;
+        background-color: rgb(39, 119, 139)
+    }
+    }
+
+@media screen and (max-width:572px){
+    nav a {
+        color: skyblue;
+        text-decoration: none;
+        font-size: 12px;
+        font-variant-caps: small-caps;
+    }
+    .dora{
+        font-size: 8pt;
+        height: auto;
+    }
+    .img3, .img1, .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        background-color: rgb(39, 119, 139)
+    }
+}
+
+    
